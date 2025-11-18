@@ -1,0 +1,45 @@
+.customBorder{
+    background: #15283c;
+    margin: 0;
+    padding: 21px 25px 19px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-bottom: 1px solid #ff5722;
+    padding: 21px 25px 19px;
+  }
+
+  .sidebar_user_info{
+    padding: 10px 25px !important;
+    background: #214162;
+}
+
+.dashboard_icon_color {
+        color: #ff9800 !important;
+        font-size: 20px !important;
+        margin-right: 20px;
+}
+
+.newloan_icon_color {
+        color: #673ab7 !important;
+        font-size: 20px !important;
+        margin-right: 20px;
+}
+
+.setting_icon_color {
+        color: #03a9f4 !important;
+        font-size: 20px !important;
+        margin-right: 20px;
+}
+
+.message_icon_color {
+        color: #e91e63 !important;
+        font-size: 20px !important;
+        margin-right: 20px;
+}
+
+.banner_background{
+         background-image: url(../images/pattern_h.png);
+         background-color: #15283c !important;
+         max-width: 280px !important;
+}
