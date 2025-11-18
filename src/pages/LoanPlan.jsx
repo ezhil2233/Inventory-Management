@@ -36,6 +36,7 @@ const columns = [
 
 const LoanPlan = () => {
 
+  
 
   return (
     <div className="">
@@ -63,15 +64,66 @@ const LoanPlan = () => {
                   <h5 className="modal-title">Add New Plan</h5>
                   <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-
+              <form>
                 <div className="modal-body">
-                </div>
+                          <div class="row g-3">                        
+                              <div class="col-md-6">
+                                <label class="form-label">Plan Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control"/>
+                              </div>
 
+                              <div class="col-md-6">
+                                  <label class="form-label">Gender<span class="text-danger">*</span></label>
+                                  <select class="form-select">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                  </select>
+                                </div>                           
+                          </div>
+                          
+                        <div class="row g-3">     
+                          <div class="col-md-6">
+                            <label class="form-label">DOB <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control"/>
+                          </div>
+
+                           <div class="col-md-6">
+                            <label class="form-label">Address<span class="text-danger">*</span></label>
+                            <textarea type="textarea" class="form-control"/>
+                          </div>
+                        </div>
+                        
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                              <label class="form-label">Phone Number <span class="text-danger">*</span></label>
+                              <input type="text" class="form-control"/>
+                            </div>
+
+
+                          <div class="col-md-6">
+                              <label class="form-label">Email <span class="text-danger">*</span></label>
+                              <input type="text" class="form-control"/>
+                            </div>  
+                        </div>
+
+                        <div class="row g-3">
+                          <div class="col-md-6">
+                              <div class="col-md-6">
+                                  <label class="form-label">KYCStatus<span class="text-danger">*</span></label>
+                                  <select class="form-select">
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                  </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                </div>
                 <div className="modal-footer">
                   <button className="btn btn-success">Save</button>
                   <button className="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
                 </div>
-
+              </form>
               </div>
             </div>
           </div>
