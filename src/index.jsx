@@ -6,6 +6,8 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 import "../node_modules/font-awesome/css/font-awesome.min.css"
+import * as bootstrap from "bootstrap";
+window.bootstrap = bootstrap;
 
 
 // Your root element
