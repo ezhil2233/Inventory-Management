@@ -9,8 +9,14 @@ import LoanPlan from "./pages/LoanPlan.jsx";
 import SettingsPage from "./pages/SettingsPage.jsx";
 import MessagesPage from "./pages/MessagesPage.jsx";
 
+
+
 const App = () => {
+
+  
+
   return (
+    
     <Router>
       <div className="d-flex flex-column vh-100">
         <div className="d-flex flex-grow-1">

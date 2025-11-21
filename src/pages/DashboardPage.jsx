@@ -3,6 +3,7 @@ import TotalBalance from "../widgets/TotalBalance.jsx";
 import CashBalance from "../widgets/CashBalance.jsx";
 import BankBalance from "../widgets/BankBalance.jsx";
 import Styless from "../styles/DashboardPage.module.css";
+import { DashboardService } from "../services/DashboardService.js";
 
 const DashboardPage = () => (
     <div className="">
